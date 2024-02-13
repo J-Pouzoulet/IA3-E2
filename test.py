@@ -1,0 +1,20 @@
+df = ['text_length',
+       'text_stopword_cnt_relative', 'text_punct_cnt_relative',
+       'prompt_length', 'summary_prompt_ratio',
+       'Jaccard_prompt_to_text', 'Jaccard_question_to_text',
+       'shannon_diversity_index_exp',
+       'words_not_in_prompt_root', 'cc', 'ccnns',
+       'ccnnsinjj', 'dt', 'dtjjnnin', 'dtnn', 'dtnnindt', 'dtnnnns', 'dtnns',
+       'dtnnsccnns', 'dtnnstodt', 'dtnnsvbdrb', 'dtnntonn', 'dtnnvbdrb', 'in',
+       'indt', 'indtjjnn', 'indtnn', 'indtnnin', 'indtnns', 'injjdtjj', 'innn',
+       'innns', 'inprp', 'invbgdtnns', 'jj', 'jjinvbgdt', 'jjnnindt',
+       'jjnninnn', 'nn', 'nnin', 'nnindtnn', 'nnindtnns', 'nnnnccnn', 'nnnns',
+       'nnnnscc', 'nnnnsccnns', 'nnnnswdtnn', 'nnprprbin', 'nns', 'nnsccnnsin',
+       'nnsinjjnn', 'nnsvbd', 'nnsvbddtnns', 'nnsvbdjjin', 'nnsvbdrbvbn',
+       'nnsvbn', 'nnswdtnnnn', 'nntodtnn', 'nnvbz', 'prp', 'prpnns',
+       'prprbinnn', 'prpvbdvbgin', 'rb', 'rbvbnindt', 'vbd', 'vbdjjinvbg',
+       'vbdnnsccnns', 'vbdtonndt', 'vbdvbginin', 'vbdvbntonn', 'vbg',
+       'vbgininnn', 'vbn', 'vbndtnnin', 'vbnindtnn', 'vbnnns', 'vbz', 'wdt',
+       'wdtnnnncc']
+
+print(len(df))
